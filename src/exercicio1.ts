@@ -1,1 +1,4 @@
-console.log("Testanto Exercicio 1");
+const formatar = (entrada: string): string => `<div>${entrada}</div>`;
+
+console.log(formatar("Ana"));
+console.log(formatar("12"));
