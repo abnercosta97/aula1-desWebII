@@ -10,6 +10,3 @@ function listar(elementos:string[]):string {
 const frutas = ["Manga","Laranja","Maça","Uva"];
 const resultado = listar(frutas);
 console.log(resultado);
-
-
- //const  item = (entrada:string):string => `\t<li>${entrada}</li>\n`;   
