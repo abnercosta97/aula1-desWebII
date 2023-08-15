@@ -1,6 +1,4 @@
-function item(entrada:string):string {
-    return `\t<li>${entrada}</li>\n`;
-    }
+const  item = (entrada:string):string => `\t<li>${entrada}</li>\n`; 
 
 function listar(elementos:string[]):string {
     let soma = elementos.reduce(function (total, elemento){
