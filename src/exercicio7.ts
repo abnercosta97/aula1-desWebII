@@ -8,8 +8,6 @@ const url = `https://viacep.com.br/ws/${cep}/json`;
 axios.get(url)
 .then(({data}) => console.log(data))
 .catch(e => console.log(e.message))
-.finally(function(){
-    console.log("Fim!")
-})  ;
+.finally(() => console.log("Fim!"))  ;
 
 //Qualquer acesso de hardware é async 
