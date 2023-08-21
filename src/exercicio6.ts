@@ -1,3 +1,4 @@
-(function () {
-  console.log(2+3);
-})();
+(function(a:number,b:number){
+  console.log(a+b);
+})(2,3);
+
