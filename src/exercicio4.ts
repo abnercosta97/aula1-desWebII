@@ -9,4 +9,6 @@ function listar(elementos: string[]): string {
 
 const frutas = ["Manga", "Laranja", "Maça", "Uva"];
 const resultado = listar(frutas);
-console.log(resultado);
+// console.log(resultado);
+
+export default listar;
