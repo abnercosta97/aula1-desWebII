@@ -12,7 +12,7 @@ class Ibge {
     try {
       // o operador await faz esperar a requisição HTTP
       // usou-se o operador de desestruturação para obter apenas a propriedade data do JSON
-      const { data } = await axios.get(url);
+      const {data} = await axios.get(url);
       return data;
     }
     catch (erro: any) {
@@ -21,3 +21,9 @@ class Ibge {
     }
   }
 }
+
+const r = Ibge.regioes();
+r.then((res) => console.log(res));
+
+
+// para pegar resultado de uma promise usar o método then
